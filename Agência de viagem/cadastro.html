@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <table id="menu">
+      <tr>
+          
+           <style> body {
+          background-attachment: fixed; background-color: gold;
+         } </style> 
+    
+         
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <td><a href="index.html"><img src="./imagens/Logo Destino Certo copia.png" alt="Destino Certo" width="100px"/></a></td>
+
+            <nav class="menu">
+              <div class="col-12">
+                <ul class="list-unstyled row">
+                  <li class="nav-item active">
+                    
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+              
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Destino.html">Destino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Promocao.html">Promoção</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./contato.html">Contato</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </nav>
+      <div class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Buscar</button></div>
+      </form>
+      </div>
+      </div>
+      </nav>   
+</table>
+<header>
+ <nav class="navbar navbar-expan-lg navbar-dark bg-primary">
+ </nav>
+     </header>
+<header>
+ </nav>
+     </header>
+     <div class="container" >
+      <a class="links" id="paracadastro"></a>
+      <a class="links" id="paralogin"></a>
+       
+      <div class="content">      
+        <!--FORMULÁRIO DE LOGIN-->
+        <div id="login">
+          <form method="post" action=""> 
+            
+            <p> 
+              <label for="nome_login">Seu nome</label>
+              <input id="nome_login" name="nome_login" required="required" type="text" placeholder=""/>
+            </p>
+             
+            <p> 
+              <label for="email_login">Seu e-mail</label>
+              <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. contato@destinocerto.com" /> 
+            </p>
+             
+            <p> 
+              <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+              <label for="manterlogado">Manter-me logado</label>
+            </p>
+             
+            <p> 
+              <input type="submit" value="Logar" /> 
+            </p>
+             
+            <p class="link">
+              Ainda não tem conta?
+              <a href="./cadastro.html">Cadastre-se</a>
+            </p>
+          </form>
+        </div>
+   
+        <!--FORMULÁRIO DE CADASTRO-->
+        <div id="cadastro">
+          <form method="post" action=""> 
+            <h1>Cadastro</h1> 
+             
+            <p> 
+              <label for="nome_cad">Seu nome</label>
+              <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+            </p>
+             
+            <p> 
+              <label for="email_cad">Seu e-mail</label>
+              <input id="email_cad" name="email_cad" required="required" type="email" placeholder="destinocerto@hotmail.com"/> 
+            </p>
+             
+            <p> 
+              <label for="idade_cad">Data de Nascimento</label>
+              <input id="data de nascimento_cad" name="_cad" required="required" type="password" placeholder="dd/mm/aaaa"/>
+            </p>
+            <p> 
+              <label for="cpf_cad">CPF</label>
+              <input id="cpf_cad" name="cpf_cad" required="required" type="documento" placeholder=""/>
+            </p>
+            <p> 
+              <label for="rg_cad">RG</label>
+              <input id="rg_cad" name="rg_cad" required="required" type="documento" placeholder=""/>
+            </p>
+            <p> 
+              <label for="telefone_cad">Telefone</label>
+              <input id="telefone_cad" name="telefone_cad" required="required" type="numero" placeholder=""/>
+            </p>
+            <p> 
+              <label for="endereco_cad">Endereço</label>
+              <input id="endereco_cad" name="endereço_cad" required="required" type="" placeholder="ex.Avenida"/>
+            </p>
+            <p> 
+              <label for="senha_cad">Escolha uma Senha</label>
+              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            </p>
+            
+            <p> 
+              <a href="./Confirmacao.html" class="btn btn-primary">Cadastrar</a>
+              <a href="./Login.html" class="btn btn-primary">Já tem conta Clique Aqui!</a>
+             <a href="./index.html" class="btn btn-primary">Voltar</a></div>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>  
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

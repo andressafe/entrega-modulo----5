@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+
+header.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+max-width: 980px;
+margin: auto;
+
+}
+
+section.carousel{
+  width: 100%;
+max-width: 980px;
+margin: auto;
+
+}
+
+div.content{
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  
+}
+
+div.box {
+
+width: 100%;
+max-width: 980px;
+margin: auto;
+position: absolute;
+display: flex;
+
+}
+
+
+div.card {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  
+
+}
+
+    
+    
+    
+    .logintxt {
+            font-family: Trebuchet MS,Arial;
+            font-weight: bold;
+            font-size:22px;
+            text-align: right;
+            color: #111010;
+           
+    }
+    
+    .contatotxt {
+            font-family: Trebuchet MS,Arial;
+           font-weight: bold;
+            font-size:16px;
+            text-align: left;
+            color: #0e0c0c;
+           
+    }
+    
+    .inp {
+            font-family: Trebuchet MS,Arial;
+            font-weight: bold;
+            font-size:24px;
+      background-color:#EEEEEE;     
+            color: #0e0d0dfa;      
+    }
+    
+    .but {
+      font-family: Trebuchet MS,Arial;
+            font-weight: bold;
+            font-size:24px;
+            color: #333333;
+      margin-top:15px;
+    
+    
+    }
+
+    a:hover, a:active {
+      background-color: rgb(33, 159, 243);
+      color: rgba(15, 15, 15, 0.856);
+    }
+    
+    #cadastro, 
+#login{
+  position: absolute;
+  top: 0px;
+  width: 88%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+ border-radius: 5px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+/* Efeito ao clicar no botão ( Ir para Login ) */
+#cadastro:target ~ .content #cadastro,
+#login:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* feito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+.footer {
+	padding: 45px 0;
+	background: #919090; 
+  
+}
+  
+    nav :link  { 
+    background-color:transparent; 
+    color: #006;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+   }
+   a hover{
+    background-color:blue;
+
+   }
+  
+    
+    
