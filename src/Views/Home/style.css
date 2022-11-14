@@ -1,0 +1,55 @@
+.container{
+  background-attachment: fixed; background-color: gold;
+
+}
+
+  section.carousel{
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  
+  }
+  
+  div.content{
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+    
+  }
+  
+  div.box {
+  
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+  
+  }
+  
+  div.card .box{
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+    
+  
+  }
+  
+  #login {
+  font-family: Trebuchet MS,Arial;
+  font-weight: bold;
+  font-size:34px;
+  text-align: center;
+  color:#8596e2;
+  margin-top:20px;
+  margin-bottom:35px;
+  
+  }
+          
+.logintxt {
+  font-family: Trebuchet MS,Arial;
+  font-weight: bold;
+  font-size:22px;
+  text-align: right;
+  color: #111010;
+             
+  }
+  

@@ -1,0 +1,37 @@
+.footer {
+	padding: 45px 0;
+	background: #919090; 
+  
+}
+
+#blip-chat-container {
+    bottom: 0 !important;
+    right: 0 !important;
+    height: 100vh !important;
+    height: calc(var(--vh, 1vh) * 100) !important;
+  }
+      #blip-chat-open-iframe {
+        display: none;
+        opacity: 0 !important;
+        position: absolute !important;
+        top: 0px !important;
+        right: 0px !important;
+        box-shadow: unset !important;
+        transition: transform 100ms !important;
+        display: none !important;
+      }
+
+      #blip-chat-open-iframe.opened {
+        opacity: 1 !important;
+        display: block !important;
+      }
+
+      #blip-chat-iframe {
+        max-height: unset !important;
+        bottom: 0px !important;
+        right: 0px !important;
+        height: 100vh !important;
+        height: calc(var(--vh, 1vh) * 100) !important;
+      }
+
+      
